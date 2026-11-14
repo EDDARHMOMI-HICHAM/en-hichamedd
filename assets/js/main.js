@@ -77,7 +77,12 @@
   };
 
   function applyLanguage(lang) {
-    if (!window.translations) return;
+    document.documentElement.lang = 'en';
+    document.documentElement.dir = 'ltr';
+    if (!window.translations) {
+      updateAllWhatsAppLinks();
+      return;
+    }
     const dict = window.translations[lang] || window.translations.en || window.translations.fr || window.translations.darija;
     if (!dict) return;
 

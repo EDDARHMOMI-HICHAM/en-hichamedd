@@ -375,3 +375,27 @@ html[dir="rtl"] .whatsapp-float {
   box-shadow: 0 12px 30px rgba(245, 183, 0, 0.45);
   background: linear-gradient(135deg, #FFE082 0%, #F5B700 100%);
 }
+
+/* ==========================================================================
+   ARTICLE TYPOGRAPHY SCALE (Enhanced Readability, Same Font Family)
+   ========================================================================== */
+#article-body p,
+#article-body li {
+  font-size: 1.125rem !important;
+  line-height: 1.8 !important;
+}
+
+#article-body h3 {
+  font-size: 1.5rem !important;
+  line-height: 1.35 !important;
+}
+
+#article-body h4 {
+  font-size: 1.25rem !important;
+  line-height: 1.45 !important;
+}
+
+#article-body td,
+#article-body th {
+  font-size: 0.95rem !important;
+}
